@@ -4,10 +4,10 @@ namespace ShortcutBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class ShortController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('ShortcutBundle:Default:index.html.twig');
+        return $this->render('@Shortcut/Default/index.html.twig');
     }
 }
